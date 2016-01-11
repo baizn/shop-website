@@ -1,0 +1,70 @@
+{
+  "name": "shopInter",
+  "version": "0.0.1",
+  "description": "电商网站react实现",
+  "files": [
+    "*.md",
+    "docs",
+    "es6",
+    "lib",
+    "npm-scripts",
+    "umd"
+  ],
+  "main": "lib/index",
+  "jsnext:main": "es6/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baizn/shopInter.git"
+  },
+  "homepage": "https://rackt.github.io/react-router/",
+  "bugs": "https://github.com/rackt/react-router/issues",
+  "scripts": {
+    "build": "npm run build-cjs && npm run build-es6",
+    "start": "node server.js"
+  },
+  "authors": [
+    "baizn"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-runtime": "^6.3.19",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.3",
+    "history": "^1.17.0",
+    "isomorphic-fetch": "^2.2.0",
+    "keymirror": "^0.1.1",
+    "path": "^0.12.7",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-redux": "^4.0.6",
+    "react-router": "^1.0.3",
+    "redux": "^3.0.5",
+    "redux-logger": "^2.3.1",
+    "redux-thunk": "^1.0.3",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "mockjs": "^0.1.10"
+  },
+  "tags": [
+    "react",
+    "router"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "routing",
+    "route",
+    "routes",
+    "router"
+  ]
+}

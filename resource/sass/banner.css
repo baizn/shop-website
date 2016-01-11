@@ -1,0 +1,61 @@
+
+.banner_bar {
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.img_box {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img_box li {
+    float: left;
+}
+
+.img_box img {
+    display: block;
+}
+
+.img_num {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.img_num a {
+    width: 20px;
+    height: 5px;
+    overflow: hidden;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.img_num .active {
+    background-color: #ff7700;
+}
+
+.banner-big, banner-big img {
+    width: 810px;
+    height: 326px;
+}
+
+.banner-big .img_box {
+    width: 1620px;
+    height: 326px;
+}
+
+.banner-small, .banner-small img {
+    width: 190px;
+    height: 400px;
+}
+
+.banner-small .img-box {
+    width: 380px;
+    height: 400px;
+}
