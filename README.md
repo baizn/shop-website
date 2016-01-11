@@ -4,8 +4,12 @@
 
 ##  使用到的技术
 > react
+
 > redux
+
 > react-router
+
 > mockjs
+
 > webpack
 
